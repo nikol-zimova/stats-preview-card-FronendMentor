@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Stats preview card component</title>
+</head>
+<body>
+  <main>
+    <div class="content-container">
+      <div class="text-container">
+        <h1 class="main-title">Get <span id="accent">insights</span> that help your business grow.</h1> 
+
+        <p class="plain-text">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.</p>
+        <div class="stats-container">
+          <div class="companies" ><h2 class="stats-title">10k+</h2> <h3 class="stats-sub">companies</h3></div>
+          <div class="templates"><h2 class="stats-title">314</h2><h3 class="stats-sub">templates</h3></div>
+          <div class="queries"><h2 class="stats-title">12M+</h2> <h3 class="stats-sub">queries</h3></div>
+        </div>
+      </div>
+      <div class="img-container">
+        <div class="overlay"></div>
+        <img alt="photo of business team in a meeting" 
+            class="header-picture" 
+            srcset="images/image-header-mobile.jpg 375w,
+                    images/image-header-mobile.jpg 1024w,
+                    images/image-header-desktop.jpg 1440w"
+            sizes="(max-width: 375px) 375px,
+                    (max-width: 1024px) 1024px,
+                    (min-width: 1025px) 1440px"
+            src="images/image-header-desktop.jpg">
+      </div>
+    </div>
+  </main>
+  <footer class="attribution" aria-label="Footer attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62/hub" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/nikol-zimova">Nikol</a>.
+  </footer>
+</body>
+</html>

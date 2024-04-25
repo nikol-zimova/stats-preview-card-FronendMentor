@@ -93,19 +93,11 @@ body{
 
 .stats-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-direction: row;
     line-height: 0.5;
     margin-top: 40px;
-}
-
-.companies{
-    flex: 2;
-}
-.templates{
-    flex: 2;
-}
-.queries{
-    flex: 1;
+    gap: 20%;
 }
 
 .attribution { 
@@ -202,5 +194,4 @@ body{
     .attribution{
         padding-top: 50%;
     }
-
 }
